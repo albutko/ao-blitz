@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "d3-array": "^2.3.1",
+    "d3-ease": "^1.0.5",
+    "d3-scale": "^3.1.0",
+    "google-spreadsheet": "^2.0.8",
+    "googleapis": "^39.2.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-image": "^2.2.0",
+    "react-move": "^6.0.0",
     "react-scripts": "3.1.2"
   },
   "scripts": {

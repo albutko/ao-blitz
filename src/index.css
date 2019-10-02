@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+div.header {
+   height: 10vh;
+   position: relative
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+div.header h1{
+   margin: 0;
+   position: absolute;
+   font-size: 5vw;
+   top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.header img{
+   margin: 0;
+   height: 90%;
+   position: absolute;
+   top: 50%;
+   transform: translate(2vw, -50%);
 }

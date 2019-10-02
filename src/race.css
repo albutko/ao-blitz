@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.race-lane{
+  border-style: dashed none dashed none;
+  background-color: gray;
+  border-color: white;
+  padding: 0;
+  height:25%;
+  vertical-align:middle;
+  position: relative;
+}
+
+.race-lane h1 {
+  display: inline;
+  margin: 0;
+  font-size: 2vw;
+}
